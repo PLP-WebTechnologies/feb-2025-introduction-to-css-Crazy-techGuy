@@ -1,0 +1,46 @@
+/* Use of a class selector */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Use of an ID selector */
+#about {
+  margin: 20px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+/* Styling an image using a class selector */
+.image {
+  width: 200px;
+  border: 1px solid gold;
+  border-radius: 5px;
+}
+
+/* Styling using element selector (for the footer) */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Use of a universal selector to apply padding to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Changing font for the paragraph */
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #555;
+}
